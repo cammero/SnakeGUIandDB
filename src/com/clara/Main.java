@@ -5,9 +5,9 @@ import java.sql.*;
 public class Main {
 
     private static String DB_CONNECTION_URL = "jdbc:mysql://localhost:3306/";
-    private static String DB_NAME = "test";   //TODO CHANGE TO snakes
+    private static String DB_NAME = "snakes";   
     private static final String USER = "root";
-    private static final String PASS = "";      //TODO change!
+    private static final String PASS = "";      //TODO change to your own login and password!!
 
     static Statement statement = null;
     static Connection conn = null;
